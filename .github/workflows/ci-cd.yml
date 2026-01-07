@@ -31,7 +31,7 @@ jobs:
       
       - run: npm test -- --passWithNoTests 2>/dev/null || true
       
-      - run: npm run build 2>/dev/null || mkdir -p dist && echo "<h1>CI/CD Success</h1>" > dist/index.html
+      - run: npm run build 2>/dev/null || mkdir -p dist && echo "<h1>CI/CD Success as a Trial Project</h1>" > dist/index.html
       
       - uses: actions/configure-pages@v4
       
